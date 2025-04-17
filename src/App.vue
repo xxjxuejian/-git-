@@ -4,6 +4,7 @@ import HelloWorld from "./components/HelloWorld.vue";
 // 不符合prettier的semi: true 末尾添加分号 规范
 const name = "Tom";
 console.log(name);
+console.log(111);
 
 // 变量未使用，不符合eslint, 无法自动修复，提交以后只会 提示 + 报错，但不会自动删除变量
 // const a = 10;
